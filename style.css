@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html,body{
+     width:100%;
+     height: 100%;
+}
+#main{
+    width:100%;
+    height: 100%;
+
+}
+#nav
+{
+    padding-left:30px;
+    padding-right:30px;
+    width:100%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:20px;
+}
+#nav h4{
+    font-size:20px;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+#center
+{
+    width: 100%;
+    /* background-color: #dd1e1e; */
+    padding: 40px 80px;
+}
+#center h1{
+    font-size: 4.4vw;
+    font-weight: 450;
+    line-height: 4.4vw;
+}
+#center-down
+{
+    height:200px;
+    /* background-color: aquamarine; */
+    width:100%;
+    margin-top:60px;
+    padding-left:80px;
+    padding-right:80px;
+    display:flex;
+    justify-content: space-between;
+}
+#center-down p
+{
+    color: rgb(80, 81, 81);
+    font-size: 1.3vw;
+    font-weight: 500;
+    width: 30%;
+}
+#right
+{
+    width: 20%;
+    /* background-color: rgb(142, 142, 234); */
+}
+.hover_element
+{
+    /* background-color: brown; */
+    padding:25px 0;
+    /* margin: 5px; */
+    border-top: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hover_element:hover i {
+    opacity: 1;
+    /* background-color: red; */
+}
+
+.hover_element i
+{
+    font-size:25px;
+    font-weight:600px;
+    opacity: 0;
+}
+.hover_element a
+{
+    /* margin-top:100px; */
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black; 
+}
+#bottom
+{
+    margin-top: 50px;
+    height:55%;
+    width:100%;
+    background-color: red;
+    background-image: url(https://i.pinimg.com/564x/86/5a/b2/865ab21e5fd509a889b5169894cfbc31.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0% 35%;
+}
+@media (max-width:600px)
+{
+    #nav
+    {
+        padding-left:30px;
+        padding-right:30px;
+        width:100%;
+        height:75px;
+        gap:15px;
+    }
+    #nav h4{
+        font-size:2.9vw;
+        font-weight: 600;
+        /* display: none; */
+    }
+    #nav i{
+        background-color: black;
+        color:white;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 500;
+        border-radius: 50%;
+    }
+    #center-down
+    {
+        height:200px;
+        /* background-color: aquamarine; */
+        width:100%;
+        margin-top:0px;
+        padding-left:80px;
+        padding-right:80px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #center-down p
+    {
+        color: rgb(80, 81, 81);
+        font-size: 1.9vw;
+        font-weight: 600;
+        width: 50%;
+    }   
+    #right
+    {
+        width: 100%;
+        /* background-color: rgb(142, 142, 234); */
+        margin-top: 20px;
+    }
+    .hover_element
+    {
+        /* background-color: brown; */
+        padding:10px 0;
+        /* margin: 5px; */
+        border-top: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hover_element i
+    {
+        font-size:25px;
+        font-weight:600px;
+        opacity: 1;
+    }
+    .hover_element:hover i {
+        opacity: 1;
+        /* background-color: red; */
+    }
+    .hover_element a
+    {
+        /* margin-top:100px; */
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        color: black; 
+    }
+    #bottom
+    {
+        margin-top: 80px;
+        margin-left: 25px;
+        height:50%;
+        width:90%;
+        border-radius: 5%;
+        background-color: red;
+        background-image: url(https://i.pinimg.com/564x/86/5a/b2/865ab21e5fd509a889b5169894cfbc31.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: 0% 35%;
+    }
+}
